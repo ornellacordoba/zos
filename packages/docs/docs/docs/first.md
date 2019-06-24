@@ -17,7 +17,7 @@ Once you have installed `node`, you can install the ZeppelinOS CLI:
 npm install --global zos
 ```
 
-> Note: We are installing the CLI [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) in our workstation. Alternatively, you can install it [local](https://docs.npmjs.com/downloading-and-installing-packages-locally) to each project by running `npm install --save-dev zos` in your project folder. This would require you to run every command by prefixing it with `npx`. Installing it locally allows you to have different `zos` versions in different projects, but requires you to reinstall every time you start a new project.
+> Note: We are installing the CLI [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) in our workstation. Alternatively, you can install it [local](https://docs.npmjs.com/downloading-and-installing-packages-locally) to each project by running `npm install --save-dev zos` in your project folder. This would require you to run every command by prefixing it with `npx`. Installing it locally allows you to have different `zos` versions in different projects, but requires you to reinstall every time you start orne a new project.
 
 ## Setting up your project
 

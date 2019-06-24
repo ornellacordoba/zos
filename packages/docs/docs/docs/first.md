@@ -3,7 +3,7 @@ id: first
 title: Your first project
 ---
 
-This tutorial will get you started using ZeppelinOS. We will create a new project with a simple contract, deploy it to a development network, interact with it from the terminal, and then upgrade it.
+This tutorial will get you started using ZeppelinOS. We'll create a new project with a simple contract, deploy it to a development network, interact with it from the terminal, and then upgrade it. 
 
 ## Prerequisites
 

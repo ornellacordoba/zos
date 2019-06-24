@@ -254,11 +254,7 @@ export default class ProjectFile {
   }
 
   public networkFile(network): NetworkFile | never {
-    return new NetworkFile(
-      this,
-      network,
-      path.join(OPEN_ZEPPELIN_FOLDER, `${network}.json`),
-    );
+    return new NetworkFile(this, network, NetworkFile.getFilePath(network));
   }
 
   public write(): void {

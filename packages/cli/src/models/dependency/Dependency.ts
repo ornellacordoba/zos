@@ -64,8 +64,7 @@ export default class Dependency {
   public static hasDependenciesForDeploy(network: string): boolean {
     const dependencies = ProjectFile.getLinkedDependencies() || [];
     const networkDependencies =
-      NetworkFile.getDependencies(NetworkFile.getNetworkFilePath(network)) ||
-      {};
+      NetworkFile.getDependencies(NetworkFile.getFilePath(network)) || {};
     const hasDependenciesForDeploy = dependencies.find(
       (depNameAndVersion): any => {
         const [name, version] = depNameAndVersion.split('@');

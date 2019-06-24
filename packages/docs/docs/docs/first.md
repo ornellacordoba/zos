@@ -21,7 +21,7 @@ npm install --global zos
 
 ## Setting up your project
 
-We'll first create a node.js project in a new directory. Head over to a terminal and run:
+We'll first create a node.js project orne  in a new directory. Head over to a terminal and run:
 
 ```console
 mkdir my-project
